@@ -31,3 +31,4 @@ people = {
 #
 # Expected output is:
 #   replied yes + 1
+puts people["sue"][:correspondence][1][:description]
